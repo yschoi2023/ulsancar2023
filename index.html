@@ -17,8 +17,9 @@
         }
 
         .profile {
-            width: 50%;
-            height: 236px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
+            width: 100%;
+            height: 0;
+            padding-bottom: 55%; /* 비율을 16:9로 설정 */
             background-image: url('main.jpg');
             background-position: center;
             background-size: cover;
@@ -66,7 +67,8 @@
 
         @media (max-width: 375px) {
             .profile {
-                height: 315px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
+                height: 0;
+                padding-bottom: 75%; /* 모바일에서 더 큰 비율로 조정 */
             }
 
             .main {
@@ -97,9 +99,4 @@
         <a target="_blank" href="https://event-us.kr/thecareco2023/event/74379">사전등록 바로가기</a>
     </div>
 
-    <a href="http://b-on.co.kr/" target="_blank"
-        style="display: flex; justify-content: center; align-items: center; margin-bottom: 2.25px; position: absolute; bottom: 87.5px; left: calc(50% - 70px); width: 140px; height: 0px;"><img
-            src="logo.png" width="350px"></a>
-</body>
-
-</html>
+    <a href="http://
