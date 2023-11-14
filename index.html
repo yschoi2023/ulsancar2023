@@ -19,7 +19,7 @@
         .profile {
             width: 100%;
             height: 0;
-            padding-bottom: 55%; /* 비율을 16:9로 설정 */
+            padding-bottom: 30.25%; /* 비율을 16:9로 설정 (55% of 55%) */
             background-image: url('main.jpg');
             background-position: center;
             background-size: cover;
@@ -27,38 +27,38 @@
 
         .main {
             color: rgb(255, 176, 64);
-            font-size: 42px;
-            margin: 40px 0 20px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
+            font-size: 23.1px; /* 55% */
+            margin: 22px 0 11px; /* 55% */
         }
 
         .sub {
             color: rgb(0, 0, 0);
-            font-size: 24.5px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
-            margin: 0 0 40px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
+            font-size: 13.475px; /* 55% */
+            margin: 0 0 22px; /* 55% */
         }
 
         .wrap {
             width: 90%;
-            max-width: 840px;
+            max-width: 462px; /* 55% of original 840px */
             margin: 0 auto;
             text-align: center;
-            padding: 30px;
+            padding: 16.5px; /* 55% */
         }
 
         .wrap > a {
             width: 100%;
-            height: 87.5px;
+            height: 48.125px; /* 55% */
             background-color: white;
-            border-radius: 14.75px;
-            margin-bottom: 17.5px;
-            font-size: 25.75px;
+            border-radius: 8.1125px; /* 55% */
+            margin-bottom: 9.625px; /* 55% */
+            font-size: 14.1625px; /* 55% */
             font-weight: bold;
             color: rgb(255, 176, 64);
             text-decoration: none;
             display: flex;
             justify-content: center;
             align-items: center;
-            box-shadow: 5.25px 5.25px 8.75px 0px black;
+            box-shadow: 2.8875px 2.8875px 4.8125px 0px black; /* 55% */
         }
 
         .wrap > a:hover {
@@ -68,23 +68,28 @@
         @media (max-width: 375px) {
             .profile {
                 height: 0;
-                padding-bottom: 75%; /* 모바일에서 더 큰 비율로 조정 */
+                padding-bottom: 41.25%; /* 모바일에서 더 큰 비율로 조정 (55% of 75%) */
             }
 
             .main {
-                font-size: 35px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
-                margin: 20px 0 10px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
+                font-size: 19.25px; /* 55% */
+                margin: 11px 0 6px; /* 55% */
             }
 
             .sub {
-                font-size: 20px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
-                margin: 0 0 30px; /* 아이폰 13 Pro 사이즈에 맞게 조정 */
+                font-size: 11.7375px; /* 55% */
+                margin: 0 0 16.5px; /* 55% */
+            }
+
+            .wrap {
+                max-width: 206.25px; /* 55% of original 375px */
+                padding: 9.075px; /* 55% */
             }
 
             .wrap > a {
-                height: 43.75px;
-                font-size: 18.75px;
-                margin-bottom: 8.75px;
+                height: 23.96875px; /* 55% */
+                font-size: 10.30625px; /* 55% */
+                margin-bottom: 4.90625px; /* 55% */
             }
         }
     </style>
@@ -99,4 +104,9 @@
         <a target="_blank" href="https://event-us.kr/thecareco2023/event/74379">사전등록 바로가기</a>
     </div>
 
-    <a href="http://
+    <a href="http://b-on.co.kr/" target="_blank"
+        style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2375px; position: absolute; bottom: 48.125px; left: calc(50% - 70px); width: 77px; height: 0px;"><img
+            src="logo.png" width="192.5px"> /* 55% of original 350px */ </a>
+</body>
+
+</html>
